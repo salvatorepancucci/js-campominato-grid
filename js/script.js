@@ -19,5 +19,8 @@ function generateGrid() {
             cell.classList.add('blue'); // Colora la cella di azzurro
             console.log(`Cella cliccata: ${i}`); // Stampa il numero della cella in console
         });
+
+        // Aggiunge la cella al contenitore della griglia
+        gridContainer.appendChild(cell);
     }
 }
