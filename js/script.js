@@ -9,6 +9,9 @@ function generateGrid() {
 
     // Ciclo per creare 100 celle
     for (let i = 1; i <= 100; i++) {
-        
+        // Crea un elemento div per la cella
+        const cell = document.createElement('div');
+        cell.classList.add('cell');
+        cell.textContent = i;
     }
 }
