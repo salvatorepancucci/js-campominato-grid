@@ -24,3 +24,6 @@ function generateGrid() {
         gridContainer.appendChild(cell);
     }
 }
+
+// Aggiunge un listener per il click sul bottone che genera la griglia
+generateGridButton.addEventListener('click', generateGrid);
