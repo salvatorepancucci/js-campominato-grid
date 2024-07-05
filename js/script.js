@@ -4,5 +4,11 @@ const gridContainer = document.getElementById('gridContainer');
 
 // Funzione per generare la griglia
 function generateGrid() {
+    // Pulisce il contenitore della griglia
+    gridContainer.innerHTML = '';
 
+    // Ciclo per creare 100 celle
+    for (let i = 1; i <= 100; i++) {
+        
+    }
 }
